@@ -1,0 +1,112 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: #19a2ae;
+  position: relative;
+}
+
+.bg-top {
+  position: fixed;
+  left: -790px;
+  top: -570px;
+  z-index: -1;
+}
+
+.bg-bottom {
+  position: fixed;
+  right: -790px;
+  bottom: -570px;
+  z-index: -1;
+}
+
+section {
+  margin: 25vh 4vh;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card {
+  border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.card .profile-bg {
+  width: 100%;
+}
+
+.card .profile-picture {
+  margin-top: -52px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.card .profile-name {
+  padding-top: 2em;
+  padding-bottom: .8em;
+  text-align: center;
+  font-weight: bold;
+  color: #2d3248;
+}
+
+.card .profile-name > span {
+  font-weight: normal;
+  margin-left: .5em;
+  color: #969696;
+}
+
+.card p {
+  text-align: center;
+  color: #969696;
+  padding-bottom: 1.5em;
+}
+
+.profile-details {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  background-color: white;
+  border-top: 1px solid #969696;
+  padding: 1.5em;
+}
+
+.profile-details p {
+  font-weight: bold;
+  color: #2d3248;
+}
+
+.profile-details span {
+  font-size: .7rem;
+  color: #969696;
+}
+
+.footer {
+  text-align: center;
+}
+/*# sourceMappingURL=app.css.map */

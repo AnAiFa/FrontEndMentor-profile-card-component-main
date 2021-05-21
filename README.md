@@ -23,8 +23,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![Desktop](./desktop.jpg)
-![Mobile](./mobile.jpg)
+![Desktop](/desktop.png)
+![Mobile](/mobile.png)
 
 
 ### Links
